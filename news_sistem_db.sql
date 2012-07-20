@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 20, 2012 at 01:40 PM
+-- Generation Time: Jul 20, 2012 at 01:59 PM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `news` (
   `user` varchar(100) NOT NULL,
   `datum` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
 
 --
 -- Dumping data for table `news`
@@ -45,7 +45,12 @@ INSERT INTO `news` (`id`, `title`, `link`, `num_votes`, `user`, `datum`) VALUES
 (3, 'What are the most intellectually stimulating websites you know of? I''ll start.', 'http://www.reddit.com/r/AskReddit/comments/tmtd4/what_are_the_most_intellectually_stimulating/', 30, 'maox90', '2012-07-19 06:57:24'),
 (4, 'udacity', 'http://www.udacity.com/view#Course/cs253/CourseRev/apr2012/Unit/237003/Nugget/245002', 30, 'maox90', '2012-07-19 06:58:03'),
 (5, 'net', 'http://net.tutsplus.com/articles/web-roundups/30-awesome-codeigniter-tutorials-for-all-skill-levels/', 14, 'maox90', '2012-07-19 06:58:28'),
-(6, 'moax', 'maoxmaxomoax', 4, 'maox90', '2012-07-19 07:19:06');
+(7, 'Istraga protiv Microsofta', 'Linkhttp://www.blic.rs/IT/333689/Otvorena-istraga-protiv-Majkrosofta', 0, '', '2012-07-20 11:52:31'),
+(8, 'Microsoft na gubitku', 'http://www.blic.rs/IT/334149/Majkrosoft-po-prvi-put-na-gubitku', 0, '', '2012-07-20 11:53:10'),
+(9, 'MacBook Pro with Retina', 'http://www.blic.rs/IT/333902/MekBuk-Pro-Noutbuk-sa-savrsenom-slikom', 0, '', '2012-07-20 11:53:44'),
+(10, 'Prihodi Google-a i dalje rastu', 'http://www.b92.net/tehnopolis/vesti.php?yyyy=2012&mm=07&nav_id=628251', 0, '', '2012-07-20 11:56:38'),
+(11, 'Soni ekoloska baterija', 'http://www.b92.net/tehnopolis/vesti.php?yyyy=2012&mm=07&nav_id=627897', 0, '', '2012-07-20 11:57:02'),
+(12, 'SOPA i PIPA gube podrsku u kongresu', 'http://www.b92.net/tehnopolis/internet.php?yyyy=2012&mm=01&nav_id=575175', 0, '', '2012-07-20 11:58:51');
 
 -- --------------------------------------------------------
 
